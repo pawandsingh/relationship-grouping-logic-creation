@@ -7,9 +7,13 @@ After getting python installed for windows machines on your cmd type python and 
 Next we need to run each of the below mentioned Pip commands on cmd to install required libraries;They are as:
 
 pip install pandas
+
 pip install datetime
+
 pip install os
+
 pip install logging
+
 pip install sys
 
 
