@@ -1,0 +1,16 @@
+PID:37748 - 05-Apr-19 16:35:15 - INFO: Log file created
+PID:37748 - 05-Apr-19 16:35:15 - INFO: Input and Output directories found
+PID:37748 - 05-Apr-19 16:35:15 - INFO: Retrieving the files in the input folder
+PID:37748 - 05-Apr-19 16:35:15 - INFO: Processing completed for File: C:\Consensus\Input_1\RMO Table 2 RMO Column.csv
+PID:37748 - 05-Apr-19 16:35:15 - ERROR: Could not write the dataframe to csv
+PID:37748 - 05-Apr-19 16:35:15 - ERROR: [Errno 13] Permission denied: 'C:\\Consensus\\Output\\output_RMO Table 2 RMO Column.csv'
+Traceback (most recent call last):
+  File "Relaionship_Python_Script.py", line 69, in <module>
+    new_grp.to_csv(outfile, index = False)
+  File "C:\Users\pasingh\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pandas\core\generic.py", line 3020, in to_csv
+    formatter.save()
+  File "C:\Users\pasingh\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pandas\io\formats\csvs.py", line 157, in save
+    compression=self.compression)
+  File "C:\Users\pasingh\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pandas\io\common.py", line 424, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+PermissionError: [Errno 13] Permission denied: 'C:\\Consensus\\Output\\output_RMO Table 2 RMO Column.csv'
